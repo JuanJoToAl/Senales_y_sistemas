@@ -1,0 +1,308 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb, geometry, tikz, pgfplots}
+\pgfplotsset{compat=1.18}
+\geometry{letterpaper, margin=2.5cm}
+
+\begin{document}
+
+% ==========================================
+% PORTADA
+% ==========================================
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Large \textbf{UNIVERSIDAD NACIONAL DE COLOMBIA}}\\[0.5cm]
+    {\large FACULTAD DE INGENIERÍA}\\[0.5cm]
+    {\large DEPARTAMENTO DE INGENIERÍA ELÉCTRICA Y ELECTRÓNICA}\\[0.5cm]
+    {\large SEÑALES Y SISTEMAS I}\\[2cm]
+    
+    {\Huge \textbf{Taller 2 y Laboratorio 1}}\\[0.5cm]
+    {\Large \textbf{Propiedades de las Señales}}\\[3cm]
+    
+    {\large \textbf{Integrantes:}}\\[0.5cm]
+    {\large Nombre del Integrante 1 - Código}\\[0.2cm]
+    {\large Nombre del Integrante 2 - Código}\\[0.2cm]
+    {\large Nombre del Integrante 3 - Código}\\[3cm]
+    
+    \vfill
+    {\large \today}\\[1cm]
+\end{titlepage}
+
+% ==========================================
+% DESARROLLO DEL TALLER
+% ==========================================
+\section*{1. Taller 2: Propiedades de las señales}
+
+\subsection*{1. Componentes par e impar de las señales}
+Por definición, la parte par $x_p(t)$ y la parte impar $x_i(t)$ de una señal continua $x(t)$ se determinan mediante:
+\begin{equation*}
+    x_p(t) = \frac{x(t) + x(-t)}{2}, \quad x_i(t) = \frac{x(t) - x(-t)}{2}
+\end{equation*}
+
+\textbf{a) $x(t) = \cos(t) + \sin(t) + \sin(t)\cos(t)$}
+Evaluamos $x(-t)$ teniendo en cuenta que $\cos(-t) = \cos(t)$ (función par) y $\sin(-t) = -\sin(t)$ (función impar):
+\begin{align*}
+    x(-t) &= \cos(-t) + \sin(-t) + \sin(-t)\cos(-t) \\
+          &= \cos(t) - \sin(t) - \sin(t)\cos(t)
+\end{align*}
+Hallamos $x_p(t)$ y $x_i(t)$:
+\begin{align*}
+    x_p(t) &= \frac{[\cos(t) + \sin(t) + \sin(t)\cos(t)] + [\cos(t) - \sin(t) - \sin(t)\cos(t)]}{2} = \cos(t) \\
+    x_i(t) &= \frac{[\cos(t) + \sin(t) + \sin(t)\cos(t)] - [\cos(t) - \sin(t) - \sin(t)\cos(t)]}{2} = \sin(t) + \sin(t)\cos(t)
+\end{align*}
+
+\textbf{b) $x(t) = 1 + t\cos(t) + t^2\sin(t) + t^3\sin(t)\cos(t)$}
+Evaluamos $x(-t)$:
+\begin{align*}
+    x(-t) &= 1 + (-t)\cos(-t) + (-t)^2\sin(-t) + (-t)^3\sin(-t)\cos(-t) \\
+          &= 1 - t\cos(t) - t^2\sin(t) + t^3\sin(t)\cos(t)
+\end{align*}
+Componentes:
+\begin{align*}
+    x_p(t) &= \frac{x(t) + x(-t)}{2} = 1 + t^3\sin(t)\cos(t) \\
+    x_i(t) &= \frac{x(t) - x(-t)}{2} = t\cos(t) + t^2\sin(t)
+\end{align*}
+
+\textbf{c) $x(t) = (1 + t^3)\cos^3(10t) = \cos^3(10t) + t^3\cos^3(10t)$}
+Evaluamos $x(-t)$:
+\begin{align*}
+    x(-t) &= (1 + (-t)^3)\cos^3(-10t) = (1 - t^3)\cos^3(10t) = \cos^3(10t) - t^3\cos^3(10t)
+\end{align*}
+Componentes:
+\begin{align*}
+    x_p(t) &= \frac{x(t) + x(-t)}{2} = \cos^3(10t) \\
+    x_i(t) &= \frac{x(t) - x(-t)}{2} = t^3\cos^3(10t)
+\end{align*}
+
+% ---------------------------------------------------
+\subsection*{2. Clasificación de energía o potencia}
+
+\textbf{a) Señal continua $x(t)$}
+\begin{equation*}
+x(t) = \begin{cases} t, & 0 \le t \le 1 \\ 2-t, & 1 < t \le 2 \\ 0, & \text{en otro caso} \end{cases}
+\end{equation*}
+Como es una señal de duración finita, es una \textbf{señal de energía}. Su potencia promedio es cero ($P = 0$).
+\begin{align*}
+    E &= \int_{-\infty}^{\infty} |x(t)|^2 dt = \int_{0}^{1} t^2 dt + \int_{1}^{2} (2-t)^2 dt \\
+      &= \left[ \frac{t^3}{3} \right]_0^1 + \left[ -\frac{(2-t)^3}{3} \right]_1^2 = \frac{1}{3} + \left(0 - \left(-\frac{1}{3}\right)\right) = \frac{2}{3} \text{ Joules}
+\end{align*}
+
+\textbf{b) Señal discreta $x[n]$}
+\begin{equation*}
+x[n] = \begin{cases} \cos(\pi n), & n \ge 0 \\ 0, & n < 0 \end{cases}
+\end{equation*}
+La señal no se anula al tender al infinito (toma valores $1, -1, 1, -1 \dots$), por lo que tiene energía infinita. Es una \textbf{señal de potencia}.
+\begin{align*}
+    P &= \lim_{N \to \infty} \frac{1}{2N+1} \sum_{n=-N}^{N} |x[n]|^2 = \lim_{N \to \infty} \frac{1}{2N+1} \sum_{n=0}^{N} |\cos(\pi n)|^2 \\
+      &= \lim_{N \to \infty} \frac{1}{2N+1} \sum_{n=0}^{N} 1 = \lim_{N \to \infty} \frac{N+1}{2N+1} = \frac{1}{2} \text{ Watts}
+\end{align*}
+
+\textbf{c) Señal discreta $x[n]$}
+\begin{equation*}
+x[n] = \begin{cases} n, & 0 \le n \le 5 \\ 10-n, & 5 < n \le 10 \\ 0, & \text{en otro caso} \end{cases}
+\end{equation*}
+Es una señal de duración finita discreta, por lo tanto es una \textbf{señal de energía} ($P = 0$).
+\begin{align*}
+    E &= \sum_{n=-\infty}^{\infty} |x[n]|^2 = \sum_{n=0}^{5} n^2 + \sum_{n=6}^{10} (10-n)^2 \\
+      &= (0^2 + 1^2 + 2^2 + 3^2 + 4^2 + 5^2) + (4^2 + 3^2 + 2^2 + 1^2 + 0^2) \\
+      &= (0 + 1 + 4 + 9 + 16 + 25) + (16 + 9 + 4 + 1 + 0) = 55 + 30 = 85 \text{ Joules}
+\end{align*}
+
+% ---------------------------------------------------
+\subsection*{3. Sistema no lineal: Salida cuadrática}
+Dada la señal de entrada $x(t) = 3\cos\left(200t + \frac{\pi}{6}\right)$ y la relación de salida $y(t) = x^2(t)$:
+\begin{equation*}
+    y(t) = \left[ 3\cos\left(200t + \frac{\pi}{6}\right) \right]^2 = 9\cos^2\left(200t + \frac{\pi}{6}\right)
+\end{equation*}
+Aplicando la identidad trigonométrica provista $\cos^2(\theta) = \frac{1}{2}[1 + \cos(2\theta)]$:
+\begin{align*}
+    y(t) &= 9 \left( \frac{1}{2} \left[ 1 + \cos\left(2\left(200t + \frac{\pi}{6}\right)\right) \right] \right) \\
+         &= \frac{9}{2} + \frac{9}{2}\cos\left(400t + \frac{\pi}{3}\right)
+\end{align*}
+De esta expresión deducimos:
+\begin{itemize}
+    \item \textbf{Componente DC:} $\frac{9}{2} = 4.5$
+    \item \textbf{Componente sinusoidal:} 
+    \begin{itemize}
+        \item Amplitud: $\frac{9}{2} = 4.5$
+        \item Frecuencia fundamental ($\omega_0$): $400 \text{ rad/s}$
+    \end{itemize}
+\end{itemize}
+
+% ---------------------------------------------------
+\subsection*{4. Energía del pulso cosenoidal}
+Señal definida como $x(t) = \frac{1}{2}(\cos(\omega t) + 1)$ para $t \in \left[-\frac{\pi}{\omega}, \frac{\pi}{\omega}\right]$.
+\begin{align*}
+    E &= \int_{-\pi/\omega}^{\pi/\omega} \left[ \frac{1}{2}(\cos(\omega t) + 1) \right]^2 dt = \frac{1}{4} \int_{-\pi/\omega}^{\pi/\omega} (\cos^2(\omega t) + 2\cos(\omega t) + 1) dt \\
+      &= \frac{1}{4} \int_{-\pi/\omega}^{\pi/\omega} \left( \frac{1 + \cos(2\omega t)}{2} + 2\cos(\omega t) + 1 \right) dt \\
+      &= \frac{1}{4} \int_{-\pi/\omega}^{\pi/\omega} \left( \frac{3}{2} + 2\cos(\omega t) + \frac{1}{2}\cos(2\omega t) \right) dt \\
+      &= \frac{1}{4} \left[ \frac{3}{2}t + \frac{2}{\omega}\sin(\omega t) + \frac{1}{4\omega}\sin(2\omega t) \right]_{-\pi/\omega}^{\pi/\omega}
+\end{align*}
+Al evaluar los límites, las funciones seno se anulan en múltiplos de $\pi$:
+\begin{equation*}
+    E = \frac{1}{4} \left( \frac{3}{2}\left(\frac{\pi}{\omega}\right) - \frac{3}{2}\left(-\frac{\pi}{\omega}\right) \right) = \frac{1}{4} \left( \frac{3\pi}{\omega} \right) = \frac{3\pi}{4\omega} \text{ Joules}
+\end{equation*}
+
+% ---------------------------------------------------
+\subsection*{5. Energía del pulso trapezoidal}
+El pulso está dado en tramos entre $-5$ y $5$.
+\begin{align*}
+    E &= \int_{-5}^{-4} (t+5)^2 dt + \int_{-4}^{4} (1)^2 dt + \int_{4}^{5} (5-t)^2 dt \\
+      &= \left[ \frac{(t+5)^3}{3} \right]_{-5}^{-4} + \left[ t \right]_{-4}^{4} + \left[ -\frac{(5-t)^3}{3} \right]_{4}^{5} \\
+      &= \left(\frac{1}{3} - 0\right) + (4 - (-4)) + \left(0 - \left(-\frac{1}{3}\right)\right) \\
+      &= \frac{1}{3} + 8 + \frac{1}{3} = \frac{26}{3} \text{ Joules}
+\end{align*}
+
+% ---------------------------------------------------
+\subsection*{6. Demostración de energía por paridad}
+Partimos de la descomposición de la señal $x(t) = x_p(t) + x_i(t)$ y elevamos al cuadrado:
+\begin{align*}
+    E &= \int_{-\infty}^{\infty} [x_p(t) + x_i(t)]^2 dt \\
+      &= \int_{-\infty}^{\infty} [x_p^2(t) + x_i^2(t) + 2x_p(t)x_i(t)] dt \\
+      &= \int_{-\infty}^{\infty} x_p^2(t) dt + \int_{-\infty}^{\infty} x_i^2(t) dt + 2\int_{-\infty}^{\infty} x_p(t)x_i(t) dt
+\end{align*}
+El término cruzado es el producto de una función par y una función impar, lo que da como resultado una función impar. La integral de una función impar en un intervalo simétrico ($-\infty$ a $\infty$) es estrictamente cero:
+\begin{equation*}
+    2\int_{-\infty}^{\infty} \underbrace{x_p(t)x_i(t)}_{\text{Impar}} dt = 0
+\end{equation*}
+Por lo tanto, se demuestra que:
+\begin{equation*}
+    E = \int_{-\infty}^{\infty} x_p^2(t) dt + \int_{-\infty}^{\infty} x_i^2(t) dt
+\end{equation*}
+
+% ---------------------------------------------------
+\newpage
+\subsection*{7. Transformaciones del pulso triangular}
+
+Dada la señal base $x(t)$ (triángulo de $t=-1$ a $t=1$ con pico en $t=0, y=1$), graficamos las señales derivadas aplicando transformaciones a la variable independiente.
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=14cm, height=5cm,
+        axis lines=middle,
+        xmin=-3, xmax=3, ymin=-0.2, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(-2t-1)$},
+        title={\textbf{Señal $x(-2t-1)$: Reflexión, compresión y desplazamiento}},
+        grid=both, minor tick num=1
+    ]
+    \addplot[thick, blue] coordinates {(-2,0) (-1,0) (-0.5,1) (0,0) (1,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=14cm, height=5cm,
+        axis lines=middle,
+        xmin=-4, xmax=1, ymin=-0.2, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(2(t+2))$},
+        title={\textbf{Señal $x(2t+4)$: Compresión y desplazamiento}},
+        grid=both, minor tick num=1
+    ]
+    \addplot[thick, red] coordinates {(-3.5,0) (-2.5,0) (-2,1) (-1.5,0) (-0.5,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=14cm, height=5cm,
+        axis lines=middle,
+        xmin=-2, xmax=1, ymin=-0.2, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(3t) + x(3t+2)$},
+        title={\textbf{Señal $x(3t)+x(3t+2)$: Suma de señales transformadas}},
+        grid=both, minor tick num=1
+    ]
+    \addplot[thick, green!50!black] coordinates {(-1.5,0) (-1,0) (-0.666,1) (-0.333,0) (0,1) (0.333,0) (1,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+% ---------------------------------------------------
+\newpage
+\subsection*{8. Multiplicación de señales $x(t)$ y $y(t)$}
+
+A continuación, se grafican las señales solicitadas analizando los traslapes (ventanas activas) y multiplicando algebraicamente tramo por tramo las funciones transformadas de las Figuras 2 y 3.
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=12cm, height=5.5cm,
+        axis lines=middle,
+        xmin=-2, xmax=4, ymin=-1.5, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(t)y(t-1)$},
+        title={\textbf{Señal $x(t)y(t-1)$}},
+        grid=both
+    ]
+    \addplot[thick, blue] coordinates {(-2,0) (-1,0) (0,-1) (0,0) (1,-1) (2,0) (2,1) (3,0) (4,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=12cm, height=5.5cm,
+        axis lines=middle,
+        xmin=-1, xmax=3, ymin=-0.5, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(t-1)y(-t)$},
+        title={\textbf{Señal $x(t-1)y(-t)$}},
+        grid=both
+    ]
+    \addplot[thick, red] coordinates {(-1,0) (0,0) (1,1) (1,0) (2,1) (2,0) (3,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=12cm, height=5.5cm,
+        axis lines=middle,
+        xmin=-1, xmax=3, ymin=-1.5, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(t+1)y(t-2)$},
+        title={\textbf{Señal $x(t+1)y(t-2)$}},
+        grid=both
+    ]
+    \addplot[thick, green!50!black] coordinates {(-1,0) (0,0) (0,1) (1,1) (1,-1) (2,0) (3,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=12cm, height=5.5cm,
+        axis lines=middle,
+        xmin=-2, xmax=2, ymin=-0.5, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(t)y(-1-t)$},
+        title={\textbf{Señal $x(t)y(-1-t)$}},
+        grid=both
+    ]
+    \addplot[thick, orange] coordinates {(-2,0) (-1,0) (0,1) (0,0) (1,1) (1,0) (2,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=12cm, height=5.5cm,
+        axis lines=middle,
+        xmin=0, xmax=3, ymin=-0.5, ymax=1.5,
+        xlabel={$t$}, ylabel={$x(4-t)y(t)$},
+        title={\textbf{Señal $x(4-t)y(t)$}},
+        grid=both
+    ]
+    \addplot[thick, purple] coordinates {(0,0) (1,0) (2,1) (2,0) (3,0)};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\end{document}
