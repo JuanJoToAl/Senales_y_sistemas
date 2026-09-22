@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{amsmath, amssymb, geometry, tikz, pgfplots}
+\usepackage{amsmath, amssymb, geometry, tikz, pgfplots, graphicx} % Se añadió graphicx para las imágenes
 \pgfplotsset{compat=1.18}
 \geometry{letterpaper, margin=2.5cm}
 
@@ -23,7 +23,7 @@
     {\Large \textbf{Propiedades de las Señales}}\\[3cm]
     
     {\large \textbf{Integrantes:}}\\[0.5cm]
-    {\large Nombre del Integrante 1 - Código}\\[0.2cm]
+    {\large Juan José Tobar Álvarez - jutobara@unal.edu.co}\\[0.2cm]
     {\large Nombre del Integrante 2 - Código}\\[0.2cm]
     {\large Nombre del Integrante 3 - Código}\\[3cm]
     
@@ -177,132 +177,146 @@ Por lo tanto, se demuestra que:
 \newpage
 \subsection*{7. Transformaciones del pulso triangular}
 
-Dada la señal base $x(t)$ (triángulo de $t=-1$ a $t=1$ con pico en $t=0, y=1$), graficamos las señales derivadas aplicando transformaciones a la variable independiente.
+La señal original $x(t)$ se define por partes como un pulso triangular con base en $[-1, 1]$ y pico en el origen:
+\begin{equation*}
+x(t) = \begin{cases} 
+t+1, & -1 \le t \le 0 \\ 
+-t+1, & 0 < t \le 1 \\ 
+0, & \text{en otro caso} 
+\end{cases}
+\end{equation*}
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=14cm, height=5cm,
-        axis lines=middle,
-        xmin=-3, xmax=3, ymin=-0.2, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(-2t-1)$},
-        title={\textbf{Señal $x(-2t-1)$: Reflexión, compresión y desplazamiento}},
-        grid=both, minor tick num=1
-    ]
-    \addplot[thick, blue] coordinates {(-2,0) (-1,0) (-0.5,1) (0,0) (1,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\textbf{a) Señal $x(-2t-1)$:}
+Para hallar el nuevo intervalo activo, igualamos el argumento de la función a los límites originales:
+\begin{equation*}
+-1 \le -2t-1 \le 1 \implies 0 \le -2t \le 2 \implies -1 \le t \le 0
+\end{equation*}
+El pico ocurre cuando el argumento es cero ($-2t-1 = 0 \implies t = -0.5$). Es decir, la señal sufre un desplazamiento hacia la izquierda, compresión por un factor de 2 y reflexión en el tiempo.
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=14cm, height=5cm,
-        axis lines=middle,
-        xmin=-4, xmax=1, ymin=-0.2, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(2(t+2))$},
-        title={\textbf{Señal $x(2t+4)$: Compresión y desplazamiento}},
-        grid=both, minor tick num=1
-    ]
-    \addplot[thick, red] coordinates {(-3.5,0) (-2.5,0) (-2,1) (-1.5,0) (-0.5,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto7Fig1.jpg}
+    \caption{Señal $x(-2t-1)$}
+\end{figure}
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=14cm, height=5cm,
-        axis lines=middle,
-        xmin=-2, xmax=1, ymin=-0.2, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(3t) + x(3t+2)$},
-        title={\textbf{Señal $x(3t)+x(3t+2)$: Suma de señales transformadas}},
-        grid=both, minor tick num=1
-    ]
-    \addplot[thick, green!50!black] coordinates {(-1.5,0) (-1,0) (-0.666,1) (-0.333,0) (0,1) (0.333,0) (1,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\textbf{b) Señal $x(2(t+2)) = x(2t+4)$:}
+Determinamos el intervalo activo evaluando el argumento:
+\begin{equation*}
+-1 \le 2t+4 \le 1 \implies -5 \le 2t \le -3 \implies -2.5 \le t \le -1.5
+\end{equation*}
+El pico se ubica en $2t+4 = 0 \implies t = -2$. La señal fue desplazada a la izquierda y comprimida.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto7Fig2.jpg}
+    \caption{Señal $x(2(t+2))$}
+\end{figure}
+
+\textbf{c) Señal $x(3t) + x(3t+2)$:}
+Analizamos cada término por separado:
+\begin{itemize}
+    \item $x(3t)$ es activa si $-1 \le 3t \le 1 \implies t \in [-1/3, 1/3]$, con su pico en $t=0$.
+    \item $x(3t+2)$ es activa si $-1 \le 3t+2 \le 1 \implies -3 \le 3t \le -1 \implies t \in [-1, -1/3]$, con pico en $t=-2/3$.
+\end{itemize}
+Ambos pulsos se tocan exactamente en $t = -1/3$ (donde ambos valen 0). La señal resultante consta de dos picos distintos.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto7Fig3.jpg}
+    \caption{Señal $x(3t) + x(3t+2)$}
+\end{figure}
 
 % ---------------------------------------------------
 \newpage
 \subsection*{8. Multiplicación de señales $x(t)$ y $y(t)$}
 
-A continuación, se grafican las señales solicitadas analizando los traslapes (ventanas activas) y multiplicando algebraicamente tramo por tramo las funciones transformadas de las Figuras 2 y 3.
+A partir de las gráficas proporcionadas en el enunciado, establecemos las ecuaciones de cada señal por tramos:
+\begin{equation*}
+x(t) = \begin{cases} 
+-t-1, & -1 \le t < 0 \\ 
+t, & 0 \le t < 1 \\ 
+1, & 1 \le t < 2 \\ 
+3-t, & 2 \le t \le 3 \\ 
+0, & \text{resto} 
+\end{cases}
+\quad\quad
+y(t) = \begin{cases} 
+1, & -2 \le t < -1 \\ 
+-1, & -1 \le t < 0 \\ 
+t-1, & 0 \le t < 1 \\ 
+1, & 1 \le t \le 2 \\ 
+0, & \text{resto} 
+\end{cases}
+\end{equation*}
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=12cm, height=5.5cm,
-        axis lines=middle,
-        xmin=-2, xmax=4, ymin=-1.5, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(t)y(t-1)$},
-        title={\textbf{Señal $x(t)y(t-1)$}},
-        grid=both
-    ]
-    \addplot[thick, blue] coordinates {(-2,0) (-1,0) (0,-1) (0,0) (1,-1) (2,0) (2,1) (3,0) (4,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\textbf{a) Señal $x(t)y(t-1)$}\\
+La señal $y(t-1)$ está desplazada 1 unidad hacia la derecha, por lo que su rango activo cambia a $t \in [-1, 3]$. Se intersecta con $x(t)$ en el mismo intervalo $[-1, 3]$. Multiplicando por tramos:
+\begin{itemize}
+    \item $t \in [-1, 0)$: $x(t)(-1-1) \to (-t-1)(1) = -t-1$
+    \item $t \in [0, 1)$: $x(t)(-1) \to (t)(-1) = -t$
+    \item $t \in [1, 2)$: $x(t)(t-2) \to (1)(t-2) = t-2$
+    \item $t \in [2, 3]$: $x(t)(1) \to (3-t)(1) = 3-t$
+\end{itemize}
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=12cm, height=5.5cm,
-        axis lines=middle,
-        xmin=-1, xmax=3, ymin=-0.5, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(t-1)y(-t)$},
-        title={\textbf{Señal $x(t-1)y(-t)$}},
-        grid=both
-    ]
-    \addplot[thick, red] coordinates {(-1,0) (0,0) (1,1) (1,0) (2,1) (2,0) (3,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto8Fig1.jpg}
+    \caption{Señal $x(t)y(t-1)$}
+\end{figure}
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=12cm, height=5.5cm,
-        axis lines=middle,
-        xmin=-1, xmax=3, ymin=-1.5, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(t+1)y(t-2)$},
-        title={\textbf{Señal $x(t+1)y(t-2)$}},
-        grid=both
-    ]
-    \addplot[thick, green!50!black] coordinates {(-1,0) (0,0) (0,1) (1,1) (1,-1) (2,0) (3,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\textbf{b) Señal $x(t-1)y(-t)$}\\
+La señal $x(t-1)$ está desplazada a la derecha, activa en $[0, 4]$. La señal $y(-t)$ está reflejada, activa en $[-2, 2]$. El traslape de ambas es el intervalo $t \in [0, 2]$:
+\begin{itemize}
+    \item $t \in [0, 1)$: $x(t-1) = -t$ y $y(-t) = -1$. El producto es $(-t)(-1) = t$.
+    \item $t \in [1, 2]$: $x(t-1) = t-1$ y $y(-t) = 1$. El producto es $(t-1)(1) = t-1$.
+\end{itemize}
+En $t=1$, la señal presenta una discontinuidad pasando de $1$ a $0$.
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=12cm, height=5.5cm,
-        axis lines=middle,
-        xmin=-2, xmax=2, ymin=-0.5, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(t)y(-1-t)$},
-        title={\textbf{Señal $x(t)y(-1-t)$}},
-        grid=both
-    ]
-    \addplot[thick, orange] coordinates {(-2,0) (-1,0) (0,1) (0,0) (1,1) (1,0) (2,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto8Fig2.jpg}
+    \caption{Señal $x(t-1)y(-t)$}
+\end{figure}
 
-\begin{center}
-\begin{tikzpicture}
-    \begin{axis}[
-        width=12cm, height=5.5cm,
-        axis lines=middle,
-        xmin=0, xmax=3, ymin=-0.5, ymax=1.5,
-        xlabel={$t$}, ylabel={$x(4-t)y(t)$},
-        title={\textbf{Señal $x(4-t)y(t)$}},
-        grid=both
-    ]
-    \addplot[thick, purple] coordinates {(0,0) (1,0) (2,1) (2,0) (3,0)};
-    \end{axis}
-\end{tikzpicture}
-\end{center}
+\textbf{c) Señal $x(t+1)y(t-2)$}\\
+La señal $x(t+1)$ es activa en $[-2, 2]$. La señal $y(t-2)$ está desplazada 2 a la derecha, activa en $[0, 4]$. El traslape ocurre únicamente en $t \in [0, 2]$:
+\begin{itemize}
+    \item $t \in [0, 1)$: $x(t+1) = 1$ y $y(t-2) = 1$. Producto: $(1)(1) = 1$.
+    \item $t \in [1, 2]$: $x(t+1) = 2-t$ y $y(t-2) = -1$. Producto: $(2-t)(-1) = t-2$.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto8Fig3.jpg}
+    \caption{Señal $x(t+1)y(t-2)$}
+\end{figure}
+
+\textbf{d) Señal $x(t)y(-1-t)$}\\
+El término $y(-1-t)$ es activo cuando $-1-t \in [-2, 2] \implies t \in [-3, 1]$. $x(t)$ es activa en $[-1, 3]$. Su área común es $t \in [-1, 1]$:
+\begin{itemize}
+    \item $t \in [-1, 0)$: $x(t) = -t-1$. El argumento de $y$ está en $(-1, 0]$, donde $y=-1$. Producto: $(-t-1)(-1) = t+1$.
+    \item $t \in [0, 1]$: $x(t) = t$. El argumento de $y$ está en $[-2, -1]$, donde $y=1$. Producto: $(t)(1) = t$.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto8Fig4.jpg}
+    \caption{Señal $x(t)y(-1-t)$}
+\end{figure}
+
+\textbf{e) Señal $x(4-t)y(t)$}\\
+El término $x(4-t)$ es no nulo cuando $4-t \in [-1, 3] \implies t \in [1, 5]$. Dado que $y(t)$ sólo es no nula en $[-2, 2]$, el único traslape ocurre en $t \in [1, 2]$.
+\begin{itemize}
+    \item Para $t \in [1, 2]$: el argumento $4-t$ pertenece a $[2, 3]$. Evaluando $x$ en este rango: $x(4-t) = 3 - (4-t) = t-1$.
+    \item En este mismo rango, $y(t) = 1$. 
+    \item El producto es $(t-1)(1) = t-1$.
+\end{itemize}
+La gráfica es cero en todo instante, excepto por una rampa lineal que asciende de $0$ a $1$ en el intervalo $t \in [1, 2]$.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Punto8Fig5.jpg}
+    \caption{Señal $x(4-t)y(t)$}
+\end{figure}
 
 \end{document}

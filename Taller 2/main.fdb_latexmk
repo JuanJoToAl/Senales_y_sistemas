@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790019894.47326 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790019896.93939 0
+["pdflatex"] 1790112385.17298 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790112387.41276 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1789762223 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1790019894 14064 af7f72e55c90075ba4ea83771791210f ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1788737851 13333486 ef2551da8984eb29d9263700172ee6fe ""
@@ -170,9 +170,17 @@
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1756451144 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty" 1621075461 4904 ee78b44e85d6fccf08cd99370557481e ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790019881 12773 83b790cd532e5aa7606ce39b5017517e ""
-  "main.aux" 1790019896 232 34ead3c11ffa22550670cc92b59be510 "pdflatex"
-  "main.tex" 1790019881 12773 83b790cd532e5aa7606ce39b5017517e ""
+  "Punto7Fig1.jpg" 1790112278 967774 eb02da48b96f5ced51346ef0359a2fc5 ""
+  "Punto7Fig2.jpg" 1790112283 874121 22848f803a806f17cedbd02747b85dbf ""
+  "Punto7Fig3.jpg" 1790112288 728329 2325c99e8b23ec745dfb4ad7e3324525 ""
+  "Punto8Fig1.jpg" 1790112292 738173 9a4656ab99671c72040602b56d08b131 ""
+  "Punto8Fig2.jpg" 1790112296 684739 1e7fc6eb3213e84c29ef3eef9ebdfd53 ""
+  "Punto8Fig3.jpg" 1790112300 913942 6e0d7f052fa6982ae76eb10e0c7b9917 ""
+  "Punto8Fig4.jpg" 1790112305 1020214 64d3072434ae5dd89c55d529c4c2c0ab ""
+  "Punto8Fig5.jpg" 1790112309 857355 1dd5370161cc926fe6e431f8c746f883 ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790112384 14496 97a6184e21911c77bd00f2579dfa5638 ""
+  "main.aux" 1790112387 1215 4da05f0d5245563da898eb3ae9069fbd "pdflatex"
+  "main.tex" 1790112384 14496 97a6184e21911c77bd00f2579dfa5638 ""
   (generated)
   "main.aux"
   "main.log"
