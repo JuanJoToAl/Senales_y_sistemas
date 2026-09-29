@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.6)  28 SEP 2026 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.6)  28 SEP 2026 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,22 +430,22 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -505,133 +505,133 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 [1
 
 {C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (5.70457pt too wide) detected at line 56
+Overfull \hbox (5.70457pt too wide) detected at line 57
 []
  []
 
 [1] [2] [3] [4]
-<Punto7Fig1.jpg, id=29, 2844.6275pt x 1669.23625pt>
-File: Punto7Fig1.jpg Graphic file (type jpg)
-<use Punto7Fig1.jpg>
-Package pdftex.def Info: Punto7Fig1.jpg  used on input line 199.
+<./Figuras/Punto7Fig1.jpg, id=29, 2844.6275pt x 1669.23625pt>
+File: ./Figuras/Punto7Fig1.jpg Graphic file (type jpg)
+<use ./Figuras/Punto7Fig1.jpg>
+Package pdftex.def Info: ./Figuras/Punto7Fig1.jpg  used on input line 200.
 (pdftex.def)             Requested size: 283.22162pt x 166.19476pt.
-<Punto7Fig2.jpg, id=30, 3031.325pt x 1479.5275pt>
-File: Punto7Fig2.jpg Graphic file (type jpg)
-<use Punto7Fig2.jpg>
-Package pdftex.def Info: Punto7Fig2.jpg  used on input line 212.
+<./Figuras/Punto7Fig2.jpg, id=30, 3031.325pt x 1479.5275pt>
+File: ./Figuras/Punto7Fig2.jpg Graphic file (type jpg)
+<use ./Figuras/Punto7Fig2.jpg>
+Package pdftex.def Info: ./Figuras/Punto7Fig2.jpg  used on input line 213.
 (pdftex.def)             Requested size: 283.22162pt x 138.23126pt.
- [5 <./Punto7Fig1.jpg> <./Punto7Fig2.jpg>]
-<Punto7Fig3.jpg, id=34, 3031.325pt x 1219.55624pt>
-File: Punto7Fig3.jpg Graphic file (type jpg)
-<use Punto7Fig3.jpg>
-Package pdftex.def Info: Punto7Fig3.jpg  used on input line 225.
+ [5 <./Figuras/Punto7Fig1.jpg> <./Figuras/Punto7Fig2.jpg>]
+<./Figuras/Punto7Fig3.jpg, id=34, 3031.325pt x 1219.55624pt>
+File: ./Figuras/Punto7Fig3.jpg Graphic file (type jpg)
+<use ./Figuras/Punto7Fig3.jpg>
+Package pdftex.def Info: ./Figuras/Punto7Fig3.jpg  used on input line 226.
 (pdftex.def)             Requested size: 283.22162pt x 113.94232pt.
-<Punto8Fig1.jpg, id=35, 2566.58875pt x 1616.0375pt>
-File: Punto8Fig1.jpg Graphic file (type jpg)
-<use Punto8Fig1.jpg>
-Package pdftex.def Info: Punto8Fig1.jpg  used on input line 262.
+<./Figuras/Punto8Fig1.jpg, id=35, 2566.58875pt x 1616.0375pt>
+File: ./Figuras/Punto8Fig1.jpg Graphic file (type jpg)
+<use ./Figuras/Punto8Fig1.jpg>
+Package pdftex.def Info: ./Figuras/Punto8Fig1.jpg  used on input line 263.
 (pdftex.def)             Requested size: 283.22162pt x 178.30716pt.
- [6 <./Punto7Fig3.jpg>]
-<Punto8Fig2.jpg, id=40, 2572.61125pt x 1366.10374pt>
-File: Punto8Fig2.jpg Graphic file (type jpg)
-<use Punto8Fig2.jpg>
-Package pdftex.def Info: Punto8Fig2.jpg  used on input line 275.
+ [6 <./Figuras/Punto7Fig3.jpg>]
+<./Figuras/Punto8Fig2.jpg, id=40, 2572.61125pt x 1366.10374pt>
+File: ./Figuras/Punto8Fig2.jpg Graphic file (type jpg)
+<use ./Figuras/Punto8Fig2.jpg>
+Package pdftex.def Info: ./Figuras/Punto8Fig2.jpg  used on input line 276.
 (pdftex.def)             Requested size: 283.22162pt x 150.3761pt.
-<Punto8Fig3.jpg, id=41, 2628.82124pt x 1657.19125pt>
-File: Punto8Fig3.jpg Graphic file (type jpg)
-<use Punto8Fig3.jpg>
-Package pdftex.def Info: Punto8Fig3.jpg  used on input line 288.
+<./Figuras/Punto8Fig3.jpg, id=41, 2628.82124pt x 1657.19125pt>
+File: ./Figuras/Punto8Fig3.jpg Graphic file (type jpg)
+<use ./Figuras/Punto8Fig3.jpg>
+Package pdftex.def Info: ./Figuras/Punto8Fig3.jpg  used on input line 289.
 (pdftex.def)             Requested size: 283.22162pt x 178.52388pt.
- [7 <./Punto8Fig1.jpg> <./Punto8Fig2.jpg>]
-<Punto8Fig4.jpg, id=45, 2904.8525pt x 1651.16875pt>
-File: Punto8Fig4.jpg Graphic file (type jpg)
-<use Punto8Fig4.jpg>
-Package pdftex.def Info: Punto8Fig4.jpg  used on input line 301.
+ [7 <./Figuras/Punto8Fig1.jpg> <./Figuras/Punto8Fig2.jpg>]
+<./Figuras/Punto8Fig4.jpg, id=45, 2904.8525pt x 1651.16875pt>
+File: ./Figuras/Punto8Fig4.jpg Graphic file (type jpg)
+<use ./Figuras/Punto8Fig4.jpg>
+Package pdftex.def Info: ./Figuras/Punto8Fig4.jpg  used on input line 302.
 (pdftex.def)             Requested size: 283.22162pt x 160.9694pt.
-<Punto8Fig5.jpg, id=46, 2624.80624pt x 1586.92876pt>
-File: Punto8Fig5.jpg Graphic file (type jpg)
-<use Punto8Fig5.jpg>
-Package pdftex.def Info: Punto8Fig5.jpg  used on input line 313.
+<./Figuras/Punto8Fig5.jpg, id=46, 2624.80624pt x 1586.92876pt>
+File: ./Figuras/Punto8Fig5.jpg Graphic file (type jpg)
+<use ./Figuras/Punto8Fig5.jpg>
+Package pdftex.def Info: ./Figuras/Punto8Fig5.jpg  used on input line 314.
 (pdftex.def)             Requested size: 283.22162pt x 171.22108pt.
- [8 <./Punto8Fig3.jpg> <./Punto8Fig4.jpg>]
-<punto9_a.jpeg, id=50, 722.7pt x 963.6pt>
-File: punto9_a.jpeg Graphic file (type jpg)
-<use punto9_a.jpeg>
-Package pdftex.def Info: punto9_a.jpeg  used on input line 328.
+ [8 <./Figuras/Punto8Fig3.jpg> <./Figuras/Punto8Fig4.jpg>]
+<./Figuras/punto9_a.jpeg, id=50, 722.7pt x 963.6pt>
+File: ./Figuras/punto9_a.jpeg Graphic file (type jpg)
+<use ./Figuras/punto9_a.jpeg>
+Package pdftex.def Info: ./Figuras/punto9_a.jpeg  used on input line 329.
 (pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<punto9_b.jpeg, id=51, 722.7pt x 963.6pt>
-File: punto9_b.jpeg Graphic file (type jpg)
-<use punto9_b.jpeg>
-Package pdftex.def Info: punto9_b.jpeg  used on input line 344.
+<./Figuras/punto9_b.jpeg, id=51, 722.7pt x 963.6pt>
+File: ./Figuras/punto9_b.jpeg Graphic file (type jpg)
+<use ./Figuras/punto9_b.jpeg>
+Package pdftex.def Info: ./Figuras/punto9_b.jpeg  used on input line 345.
 (pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./Punto8Fig5.jpg>]
-<punto10_a.jpeg, id=55, 722.7pt x 963.6pt>
-File: punto10_a.jpeg Graphic file (type jpg)
-<use punto10_a.jpeg>
-Package pdftex.def Info: punto10_a.jpeg  used on input line 359.
+[9 <./Figuras/Punto8Fig5.jpg>]
+<./Figuras/punto10_a.jpeg, id=55, 722.7pt x 963.6pt>
+File: ./Figuras/punto10_a.jpeg Graphic file (type jpg)
+<use ./Figuras/punto10_a.jpeg>
+Package pdftex.def Info: ./Figuras/punto10_a.jpeg  used on input line 360.
 (pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<punto10_b.jpeg, id=56, 722.7pt x 963.6pt>
-File: punto10_b.jpeg Graphic file (type jpg)
-<use punto10_b.jpeg>
-Package pdftex.def Info: punto10_b.jpeg  used on input line 369.
+<./Figuras/punto10_b.jpeg, id=56, 722.7pt x 963.6pt>
+File: ./Figuras/punto10_b.jpeg Graphic file (type jpg)
+<use ./Figuras/punto10_b.jpeg>
+Package pdftex.def Info: ./Figuras/punto10_b.jpeg  used on input line 370.
 (pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./punto9_a.jpeg>] [11 <./punto9_b.jpeg>] [12 <./punto10_a.jpeg>] [13 <./punto10_b.jpeg>] [14]
-<Lab1-Parte1-Punto3.png.jpg, id=75, 963.6pt x 510.40688pt>
-File: Lab1-Parte1-Punto3.png.jpg Graphic file (type jpg)
-<use Lab1-Parte1-Punto3.png.jpg>
-Package pdftex.def Info: Lab1-Parte1-Punto3.png.jpg  used on input line 454.
+[10 <./Figuras/punto9_a.jpeg>] [11 <./Figuras/punto9_b.jpeg>] [12 <./Figuras/punto10_a.jpeg>] [13 <./Figuras/punto10_b.jpeg>] [14]
+<./Figuras/Lab1-Parte1-Punto3.png.jpg, id=75, 963.6pt x 510.40688pt>
+File: ./Figuras/Lab1-Parte1-Punto3.png.jpg Graphic file (type jpg)
+<use ./Figuras/Lab1-Parte1-Punto3.png.jpg>
+Package pdftex.def Info: ./Figuras/Lab1-Parte1-Punto3.png.jpg  used on input line 455.
 (pdftex.def)             Requested size: 354.02342pt x 187.51581pt.
- [15] [16 <./Lab1-Parte1-Punto3.png.jpg>]
-<Lab1-Parte2-Punto1.png.jpg, id=85, 963.6pt x 514.92375pt>
-File: Lab1-Parte2-Punto1.png.jpg Graphic file (type jpg)
-<use Lab1-Parte2-Punto1.png.jpg>
-Package pdftex.def Info: Lab1-Parte2-Punto1.png.jpg  used on input line 488.
+ [15] [16 <./Figuras/Lab1-Parte1-Punto3.png.jpg>]
+<./Figuras/Lab1-Parte2-Punto1.png.jpg, id=85, 963.6pt x 514.92375pt>
+File: ./Figuras/Lab1-Parte2-Punto1.png.jpg Graphic file (type jpg)
+<use ./Figuras/Lab1-Parte2-Punto1.png.jpg>
+Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto1.png.jpg  used on input line 489.
 (pdftex.def)             Requested size: 306.81741pt x 163.95396pt.
-<Lab1-Parte2-Punto2.png.jpg, id=86, 963.6pt x 511.9125pt>
-File: Lab1-Parte2-Punto2.png.jpg Graphic file (type jpg)
-<use Lab1-Parte2-Punto2.png.jpg>
-Package pdftex.def Info: Lab1-Parte2-Punto2.png.jpg  used on input line 497.
+<./Figuras/Lab1-Parte2-Punto2.png.jpg, id=86, 963.6pt x 511.9125pt>
+File: ./Figuras/Lab1-Parte2-Punto2.png.jpg Graphic file (type jpg)
+<use ./Figuras/Lab1-Parte2-Punto2.png.jpg>
+Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto2.png.jpg  used on input line 498.
 (pdftex.def)             Requested size: 330.42041pt x 175.53206pt.
-<Lab1-Parte2-Punto3.png.jpg, id=87, 963.6pt x 514.92375pt>
-File: Lab1-Parte2-Punto3.png.jpg Graphic file (type jpg)
-<use Lab1-Parte2-Punto3.png.jpg>
-Package pdftex.def Info: Lab1-Parte2-Punto3.png.jpg  used on input line 506.
+<./Figuras/Lab1-Parte2-Punto3.png.jpg, id=87, 963.6pt x 514.92375pt>
+File: ./Figuras/Lab1-Parte2-Punto3.png.jpg Graphic file (type jpg)
+<use ./Figuras/Lab1-Parte2-Punto3.png.jpg>
+Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto3.png.jpg  used on input line 507.
 (pdftex.def)             Requested size: 354.02342pt x 189.17523pt.
- [17 <./Lab1-Parte2-Punto1.png.jpg> <./Lab1-Parte2-Punto2.png.jpg>]
-<Lab1-Parte2-Punto4.png.jpg, id=93, 962.84718pt x 511.9125pt>
-File: Lab1-Parte2-Punto4.png.jpg Graphic file (type jpg)
-<use Lab1-Parte2-Punto4.png.jpg>
-Package pdftex.def Info: Lab1-Parte2-Punto4.png.jpg  used on input line 521.
+ [17 <./Figuras/Lab1-Parte2-Punto1.png.jpg> <./Figuras/Lab1-Parte2-Punto2.png.jpg>]
+<./Figuras/Lab1-Parte2-Punto4.png.jpg, id=93, 962.84718pt x 511.9125pt>
+File: ./Figuras/Lab1-Parte2-Punto4.png.jpg Graphic file (type jpg)
+<use ./Figuras/Lab1-Parte2-Punto4.png.jpg>
+Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto4.png.jpg  used on input line 522.
 (pdftex.def)             Requested size: 330.42041pt x 175.67267pt.
- [18 <./Lab1-Parte2-Punto3.png.jpg> <./Lab1-Parte2-Punto4.png.jpg>]
-<Lab1-Parte2-Punto5.png.jpg, id=100, 963.6pt x 516.42938pt>
-File: Lab1-Parte2-Punto5.png.jpg Graphic file (type jpg)
-<use Lab1-Parte2-Punto5.png.jpg>
-Package pdftex.def Info: Lab1-Parte2-Punto5.png.jpg  used on input line 534.
+ [18 <./Figuras/Lab1-Parte2-Punto3.png.jpg> <./Figuras/Lab1-Parte2-Punto4.png.jpg>]
+<./Figuras/Lab1-Parte2-Punto5.png.jpg, id=100, 963.6pt x 516.42938pt>
+File: ./Figuras/Lab1-Parte2-Punto5.png.jpg Graphic file (type jpg)
+<use ./Figuras/Lab1-Parte2-Punto5.png.jpg>
+Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto5.png.jpg  used on input line 535.
 (pdftex.def)             Requested size: 377.62642pt x 202.38377pt.
- [19 <./Lab1-Parte2-Punto5.png.jpg>] (main.aux
+ [19 <./Figuras/Lab1-Parte2-Punto5.png.jpg>] (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -641,10 +641,10 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25268 strings out of 467871
- 644186 string characters out of 5418377
+ 25304 strings out of 467871
+ 646306 string characters out of 5418377
  1196469 words of memory out of 5000000
- 53758 multiletter control sequences out of 15000+600000
+ 53794 multiletter control sequences out of 15000+600000
  637297 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,795b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
