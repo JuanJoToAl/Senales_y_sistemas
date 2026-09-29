@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790649339.60031 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790649342.57374 0
+["pdflatex"] 1790650484.58452 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790650487.66896 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1789762223 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1790019894 14064 af7f72e55c90075ba4ea83771791210f ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1788737851 13333486 ef2551da8984eb29d9263700172ee6fe ""
@@ -189,9 +189,13 @@
   "Punto8Fig3.jpg" 1790112300 913942 6e0d7f052fa6982ae76eb10e0c7b9917 ""
   "Punto8Fig4.jpg" 1790112305 1020214 64d3072434ae5dd89c55d529c4c2c0ab ""
   "Punto8Fig5.jpg" 1790112309 857355 1dd5370161cc926fe6e431f8c746f883 ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790649338 20678 3afb7bcbcb4f143deaeec9f29d1b1444 ""
-  "main.aux" 1790649342 2218 0f23912db41cdc34f1a42ea407baf001 "pdflatex"
-  "main.tex" 1790649338 20678 3afb7bcbcb4f143deaeec9f29d1b1444 ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790650480 21280 76121b27c19a563335c559a43d161b52 ""
+  "main.aux" 1790650487 2718 09d8f6a59d44778b98b21c4a51c64117 "pdflatex"
+  "main.tex" 1790650480 21280 76121b27c19a563335c559a43d161b52 ""
+  "punto10_a.jpeg" 1790650480 61923 dc579f433d1f6f77d7334cd0b5353622 ""
+  "punto10_b.jpeg" 1790650480 57698 a75a11e31c1c5813e093960908202ce5 ""
+  "punto9_a.jpeg" 1790650480 55513 640ecd2b9dd1a133397f94e5b0cdf2c7 ""
+  "punto9_b.jpeg" 1790650480 58286 51e5875aa82be56a2c545d903ad7f95f ""
   (generated)
   "main.aux"
   "main.log"
