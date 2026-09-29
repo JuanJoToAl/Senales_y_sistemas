@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.6)  28 SEP 2026 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.6)  28 SEP 2026 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,76 +562,63 @@ File: ./Figuras/Punto8Fig5.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figuras/Punto8Fig5.jpg  used on input line 314.
 (pdftex.def)             Requested size: 283.22162pt x 171.22108pt.
  [8 <./Figuras/Punto8Fig3.jpg> <./Figuras/Punto8Fig4.jpg>]
-<./Figuras/punto9_a.jpeg, id=50, 722.7pt x 963.6pt>
+<./Figuras/punto9_a.jpeg, id=50, 914.66719pt x 459.96844pt>
 File: ./Figuras/punto9_a.jpeg Graphic file (type jpg)
 <use ./Figuras/punto9_a.jpeg>
 Package pdftex.def Info: ./Figuras/punto9_a.jpeg  used on input line 329.
-(pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figuras/punto9_b.jpeg, id=51, 722.7pt x 963.6pt>
+(pdftex.def)             Requested size: 283.22162pt x 142.4273pt.
+ [9 <./Figuras/Punto8Fig5.jpg> <./Figuras/punto9_a.jpeg>]
+<./Figuras/punto9_b.jpeg, id=54, 963.6pt x 396.7322pt>
 File: ./Figuras/punto9_b.jpeg Graphic file (type jpg)
 <use ./Figuras/punto9_b.jpeg>
 Package pdftex.def Info: ./Figuras/punto9_b.jpeg  used on input line 345.
-(pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9 <./Figuras/Punto8Fig5.jpg>]
-<./Figuras/punto10_a.jpeg, id=55, 722.7pt x 963.6pt>
+(pdftex.def)             Requested size: 283.22162pt x 116.60516pt.
+<./Figuras/punto10_a.jpeg, id=55, 854.44218pt x 523.9575pt>
 File: ./Figuras/punto10_a.jpeg Graphic file (type jpg)
 <use ./Figuras/punto10_a.jpeg>
 Package pdftex.def Info: ./Figuras/punto10_a.jpeg  used on input line 360.
-(pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figuras/punto10_b.jpeg, id=56, 722.7pt x 963.6pt>
+(pdftex.def)             Requested size: 283.22162pt x 173.67403pt.
+ [10 <./Figuras/punto9_b.jpeg> <./Figuras/punto10_a.jpeg>]
+<./Figuras/punto10_b.jpeg, id=59, 582.67688pt x 435.87843pt>
 File: ./Figuras/punto10_b.jpeg Graphic file (type jpg)
 <use ./Figuras/punto10_b.jpeg>
 Package pdftex.def Info: ./Figuras/punto10_b.jpeg  used on input line 370.
-(pdftex.def)             Requested size: 283.22162pt x 377.6257pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <./Figuras/punto9_a.jpeg>] [11 <./Figuras/punto9_b.jpeg>] [12 <./Figuras/punto10_a.jpeg>] [13 <./Figuras/punto10_b.jpeg>] [14]
-<./Figuras/Lab1-Parte1-Punto3.png.jpg, id=75, 963.6pt x 510.40688pt>
+(pdftex.def)             Requested size: 283.22162pt x 211.873pt.
+ [11 <./Figuras/punto10_b.jpeg>] [12]
+<./Figuras/Lab1-Parte1-Punto3.png.jpg, id=69, 963.6pt x 510.40688pt>
 File: ./Figuras/Lab1-Parte1-Punto3.png.jpg Graphic file (type jpg)
 <use ./Figuras/Lab1-Parte1-Punto3.png.jpg>
 Package pdftex.def Info: ./Figuras/Lab1-Parte1-Punto3.png.jpg  used on input line 455.
 (pdftex.def)             Requested size: 354.02342pt x 187.51581pt.
- [15] [16 <./Figuras/Lab1-Parte1-Punto3.png.jpg>]
-<./Figuras/Lab1-Parte2-Punto1.png.jpg, id=85, 963.6pt x 514.92375pt>
+ [13] [14 <./Figuras/Lab1-Parte1-Punto3.png.jpg>]
+<./Figuras/Lab1-Parte2-Punto1.png.jpg, id=79, 963.6pt x 514.92375pt>
 File: ./Figuras/Lab1-Parte2-Punto1.png.jpg Graphic file (type jpg)
 <use ./Figuras/Lab1-Parte2-Punto1.png.jpg>
 Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto1.png.jpg  used on input line 489.
 (pdftex.def)             Requested size: 306.81741pt x 163.95396pt.
-<./Figuras/Lab1-Parte2-Punto2.png.jpg, id=86, 963.6pt x 511.9125pt>
+<./Figuras/Lab1-Parte2-Punto2.png.jpg, id=80, 963.6pt x 511.9125pt>
 File: ./Figuras/Lab1-Parte2-Punto2.png.jpg Graphic file (type jpg)
 <use ./Figuras/Lab1-Parte2-Punto2.png.jpg>
 Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto2.png.jpg  used on input line 498.
 (pdftex.def)             Requested size: 330.42041pt x 175.53206pt.
-<./Figuras/Lab1-Parte2-Punto3.png.jpg, id=87, 963.6pt x 514.92375pt>
+<./Figuras/Lab1-Parte2-Punto3.png.jpg, id=81, 963.6pt x 514.92375pt>
 File: ./Figuras/Lab1-Parte2-Punto3.png.jpg Graphic file (type jpg)
 <use ./Figuras/Lab1-Parte2-Punto3.png.jpg>
 Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto3.png.jpg  used on input line 507.
 (pdftex.def)             Requested size: 354.02342pt x 189.17523pt.
- [17 <./Figuras/Lab1-Parte2-Punto1.png.jpg> <./Figuras/Lab1-Parte2-Punto2.png.jpg>]
-<./Figuras/Lab1-Parte2-Punto4.png.jpg, id=93, 962.84718pt x 511.9125pt>
+ [15 <./Figuras/Lab1-Parte2-Punto1.png.jpg> <./Figuras/Lab1-Parte2-Punto2.png.jpg>]
+<./Figuras/Lab1-Parte2-Punto4.png.jpg, id=87, 962.84718pt x 511.9125pt>
 File: ./Figuras/Lab1-Parte2-Punto4.png.jpg Graphic file (type jpg)
 <use ./Figuras/Lab1-Parte2-Punto4.png.jpg>
 Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto4.png.jpg  used on input line 522.
 (pdftex.def)             Requested size: 330.42041pt x 175.67267pt.
- [18 <./Figuras/Lab1-Parte2-Punto3.png.jpg> <./Figuras/Lab1-Parte2-Punto4.png.jpg>]
-<./Figuras/Lab1-Parte2-Punto5.png.jpg, id=100, 963.6pt x 516.42938pt>
+ [16 <./Figuras/Lab1-Parte2-Punto3.png.jpg> <./Figuras/Lab1-Parte2-Punto4.png.jpg>]
+<./Figuras/Lab1-Parte2-Punto5.png.jpg, id=93, 963.6pt x 516.42938pt>
 File: ./Figuras/Lab1-Parte2-Punto5.png.jpg Graphic file (type jpg)
 <use ./Figuras/Lab1-Parte2-Punto5.png.jpg>
 Package pdftex.def Info: ./Figuras/Lab1-Parte2-Punto5.png.jpg  used on input line 535.
 (pdftex.def)             Requested size: 377.62642pt x 202.38377pt.
- [19 <./Figuras/Lab1-Parte2-Punto5.png.jpg>] (main.aux
+ [17 <./Figuras/Lab1-Parte2-Punto5.png.jpg>] (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -649,9 +636,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,795b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\neujo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (20 pages, 7458544 bytes).
+Output written on main.pdf (18 pages, 7507226 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

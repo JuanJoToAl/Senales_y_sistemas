@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790650772.41167 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790650776.04211 0
+["pdflatex"] 1790650973.07653 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790650976.06461 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1789762223 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1790019894 14064 af7f72e55c90075ba4ea83771791210f ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1788737851 13333486 ef2551da8984eb29d9263700172ee6fe ""
@@ -189,13 +189,13 @@
   "Figuras/Punto8Fig3.jpg" 1790112300 913942 6e0d7f052fa6982ae76eb10e0c7b9917 ""
   "Figuras/Punto8Fig4.jpg" 1790112305 1020214 64d3072434ae5dd89c55d529c4c2c0ab ""
   "Figuras/Punto8Fig5.jpg" 1790112309 857355 1dd5370161cc926fe6e431f8c746f883 ""
-  "Figuras/punto10_a.jpeg" 1790650480 61923 dc579f433d1f6f77d7334cd0b5353622 ""
-  "Figuras/punto10_b.jpeg" 1790650480 57698 a75a11e31c1c5813e093960908202ce5 ""
-  "Figuras/punto9_a.jpeg" 1790650480 55513 640ecd2b9dd1a133397f94e5b0cdf2c7 ""
-  "Figuras/punto9_b.jpeg" 1790650480 58286 51e5875aa82be56a2c545d903ad7f95f ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790650771 21309 3a5d30e0c5f2d54227eb18b7f73a30fb ""
-  "main.aux" 1790650775 2718 09d8f6a59d44778b98b21c4a51c64117 "pdflatex"
-  "main.tex" 1790650771 21309 3a5d30e0c5f2d54227eb18b7f73a30fb ""
+  "Figuras/punto10_a.jpeg" 1790650930 87217 86619a493be748a24766f65b257d4165 ""
+  "Figuras/punto10_b.jpeg" 1790650899 45072 b1209d9b97f88425ce174a80ae91d9a1 ""
+  "Figuras/punto9_a.jpeg" 1790650949 83885 92afcf7464972fec9c97b10180025e3e ""
+  "Figuras/punto9_b.jpeg" 1790650968 67546 e9385e94601038d7ce9db5b6b86ba969 ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790650811 21261 86cf2a656540445488fe0e08957f4fd9 ""
+  "main.aux" 1790650975 2669 a742a07f9c0154c1df9e6328097e4329 "pdflatex"
+  "main.tex" 1790650811 21261 86cf2a656540445488fe0e08957f4fd9 ""
   (generated)
   "main.aux"
   "main.log"
