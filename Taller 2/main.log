@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.6)  28 SEP 2026 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.6)  28 SEP 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,9 +412,16 @@ Package pgfplots: loading complementary utilities for your pgf version...
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+))) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count329
+\float@exts=\toks46
+\float@box=\box67
+\@float@everytoks=\toks47
+\@floatcapt=\box68
+) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
+\l__color_backend_stack_int=\count330
 ) (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
@@ -423,22 +430,22 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -476,17 +483,17 @@ LaTeX Info: Redefining \% on input line 8.
 
 (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
+\scratchcounter=\count331
 \scratchdimen=\dimen289
-\scratchbox=\box67
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count333
+\scratchbox=\box69
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count334
 \MPscratchDim=\dimen290
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks47
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks49
 ) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -498,15 +505,15 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 [1
 
 {C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (5.70457pt too wide) detected at line 55
+Overfull \hbox (5.70457pt too wide) detected at line 56
 []
  []
 
@@ -514,36 +521,25 @@ Overfull \hbox (5.70457pt too wide) detected at line 55
 <Punto7Fig1.jpg, id=29, 2844.6275pt x 1669.23625pt>
 File: Punto7Fig1.jpg Graphic file (type jpg)
 <use Punto7Fig1.jpg>
-Package pdftex.def Info: Punto7Fig1.jpg  used on input line 198.
+Package pdftex.def Info: Punto7Fig1.jpg  used on input line 199.
 (pdftex.def)             Requested size: 283.22162pt x 166.19476pt.
 <Punto7Fig2.jpg, id=30, 3031.325pt x 1479.5275pt>
 File: Punto7Fig2.jpg Graphic file (type jpg)
 <use Punto7Fig2.jpg>
-Package pdftex.def Info: Punto7Fig2.jpg  used on input line 211.
+Package pdftex.def Info: Punto7Fig2.jpg  used on input line 212.
 (pdftex.def)             Requested size: 283.22162pt x 138.23126pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Punto7Fig3.jpg, id=31, 3031.325pt x 1219.55624pt>
+ [5 <./Punto7Fig1.jpg> <./Punto7Fig2.jpg>]
+<Punto7Fig3.jpg, id=34, 3031.325pt x 1219.55624pt>
 File: Punto7Fig3.jpg Graphic file (type jpg)
 <use Punto7Fig3.jpg>
-Package pdftex.def Info: Punto7Fig3.jpg  used on input line 224.
+Package pdftex.def Info: Punto7Fig3.jpg  used on input line 225.
 (pdftex.def)             Requested size: 283.22162pt x 113.94232pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <./Punto7Fig1.jpg>]
 <Punto8Fig1.jpg, id=35, 2566.58875pt x 1616.0375pt>
 File: Punto8Fig1.jpg Graphic file (type jpg)
 <use Punto8Fig1.jpg>
 Package pdftex.def Info: Punto8Fig1.jpg  used on input line 262.
 (pdftex.def)             Requested size: 283.22162pt x 178.30716pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./Punto7Fig2.jpg> <./Punto7Fig3.jpg>]
+ [6 <./Punto7Fig3.jpg>]
 <Punto8Fig2.jpg, id=40, 2572.61125pt x 1366.10374pt>
 File: Punto8Fig2.jpg Graphic file (type jpg)
 <use Punto8Fig2.jpg>
@@ -554,39 +550,24 @@ File: Punto8Fig3.jpg Graphic file (type jpg)
 <use Punto8Fig3.jpg>
 Package pdftex.def Info: Punto8Fig3.jpg  used on input line 288.
 (pdftex.def)             Requested size: 283.22162pt x 178.52388pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Punto8Fig4.jpg, id=42, 2904.8525pt x 1651.16875pt>
+ [7 <./Punto8Fig1.jpg> <./Punto8Fig2.jpg>]
+<Punto8Fig4.jpg, id=45, 2904.8525pt x 1651.16875pt>
 File: Punto8Fig4.jpg Graphic file (type jpg)
 <use Punto8Fig4.jpg>
 Package pdftex.def Info: Punto8Fig4.jpg  used on input line 301.
 (pdftex.def)             Requested size: 283.22162pt x 160.9694pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./Punto8Fig1.jpg> <./Punto8Fig2.jpg>]
 <Punto8Fig5.jpg, id=46, 2624.80624pt x 1586.92876pt>
 File: Punto8Fig5.jpg Graphic file (type jpg)
 <use Punto8Fig5.jpg>
 Package pdftex.def Info: Punto8Fig5.jpg  used on input line 313.
 (pdftex.def)             Requested size: 283.22162pt x 171.22108pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <./Punto8Fig3.jpg> <./Punto8Fig4.jpg>] [9 <./Punto8Fig5.jpg>] [10] [11]
+ [8 <./Punto8Fig3.jpg> <./Punto8Fig4.jpg>] [9 <./Punto8Fig5.jpg>] [10] [11]
 <Lab1-Parte1-Punto3.png.jpg, id=61, 963.6pt x 510.40688pt>
 File: Lab1-Parte1-Punto3.png.jpg Graphic file (type jpg)
 <use Lab1-Parte1-Punto3.png.jpg>
 Package pdftex.def Info: Lab1-Parte1-Punto3.png.jpg  used on input line 430.
 (pdftex.def)             Requested size: 354.02342pt x 187.51581pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12] [13 <./Lab1-Parte1-Punto3.png.jpg>]
+ [12] [13 <./Lab1-Parte1-Punto3.png.jpg>]
 <Lab1-Parte2-Punto1.png.jpg, id=72, 963.6pt x 514.92375pt>
 File: Lab1-Parte2-Punto1.png.jpg Graphic file (type jpg)
 <use Lab1-Parte2-Punto1.png.jpg>
@@ -602,11 +583,7 @@ File: Lab1-Parte2-Punto3.png.jpg Graphic file (type jpg)
 <use Lab1-Parte2-Punto3.png.jpg>
 Package pdftex.def Info: Lab1-Parte2-Punto3.png.jpg  used on input line 482.
 (pdftex.def)             Requested size: 354.02342pt x 189.17523pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <./Lab1-Parte2-Punto1.png.jpg> <./Lab1-Parte2-Punto2.png.jpg>]
+ [14 <./Lab1-Parte2-Punto1.png.jpg> <./Lab1-Parte2-Punto2.png.jpg>]
 <Lab1-Parte2-Punto4.png.jpg, id=80, 962.84718pt x 511.9125pt>
 File: Lab1-Parte2-Punto4.png.jpg Graphic file (type jpg)
 <use Lab1-Parte2-Punto4.png.jpg>
@@ -628,15 +605,15 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25167 strings out of 467871
- 642476 string characters out of 5418377
+ 25240 strings out of 467871
+ 643616 string characters out of 5418377
  1196469 words of memory out of 5000000
- 53661 multiletter control sequences out of 15000+600000
+ 53730 multiletter control sequences out of 15000+600000
  637297 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,802b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,795b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\neujo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 7221318 bytes).
+Output written on main.pdf (17 pages, 7221204 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

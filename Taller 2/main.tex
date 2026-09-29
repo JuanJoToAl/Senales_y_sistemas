@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{amsmath, amssymb, geometry, tikz, pgfplots, graphicx}
+\usepackage{float}
 \pgfplotsset{compat=1.18}
 \geometry{letterpaper, margin=2.5cm}
 
@@ -193,7 +194,7 @@ Para hallar el nuevo intervalo activo, igualamos el argumento de la función a l
 \end{equation*}
 El pico ocurre cuando $-2t-1 = 0 \implies t = -0.5$. La señal sufre un desplazamiento hacia la izquierda, compresión por un factor de 2 y reflexión temporal.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto7Fig1.jpg}
     \caption{Señal $x(-2t-1)$}
@@ -206,7 +207,7 @@ Determinamos el intervalo activo:
 \end{equation*}
 El pico se ubica en $2t+4 = 0 \implies t = -2$. La señal fue desplazada a la izquierda y comprimida.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto7Fig2.jpg}
     \caption{Señal $x(2(t+2))$}
@@ -219,14 +220,13 @@ El pico se ubica en $2t+4 = 0 \implies t = -2$. La señal fue desplazada a la iz
 \end{itemize}
 Ambos pulsos se tocan en $t = -1/3$ (donde valen 0). La señal consta de dos picos distintos.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto7Fig3.jpg}
     \caption{Señal $x(3t) + x(3t+2)$}
 \end{figure}
 
 % ---------------------------------------------------
-\newpage
 \subsection*{8. Multiplicación de señales $x(t)$ y $y(t)$}
 
 Ecuaciones de cada señal por tramos:
@@ -257,7 +257,7 @@ Intervalo de traslape: $[-1, 3]$.
     \item $t \in [2, 3]$: $(3-t)(1) = 3-t$
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto8Fig1.jpg}
     \caption{Señal $x(t)y(t-1)$}
@@ -270,7 +270,7 @@ Intervalo de traslape: $t \in [0, 2]$.
     \item $t \in [1, 2]$: $(t-1)(1) = t-1$.
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto8Fig2.jpg}
     \caption{Señal $x(t-1)y(-t)$}
@@ -283,7 +283,7 @@ Intervalo de traslape: $t \in [0, 2]$.
     \item $t \in [1, 2]$: $(2-t)(-1) = t-2$.
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto8Fig3.jpg}
     \caption{Señal $x(t+1)y(t-2)$}
@@ -296,7 +296,7 @@ Intervalo de traslape: $t \in [-1, 1]$.
     \item $t \in [0, 1]$: $(t)(1) = t$.
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto8Fig4.jpg}
     \caption{Señal $x(t)y(-1-t)$}
@@ -308,7 +308,7 @@ Intervalo de traslape: $t \in [1, 2]$.
     \item $t \in [1, 2]$: $(t-1)(1) = t-1$.
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Punto8Fig5.jpg}
     \caption{Señal $x(4-t)y(t)$}
@@ -425,7 +425,7 @@ function [xp, xi] = descomponer_senal(t, x)
 end
 \end{verbatim}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{Lab1-Parte1-Punto3.png.jpg}
     \caption{Descomposición en parte par e impar de la señal $x(t) = e^{-t} u(t)$.}
@@ -459,7 +459,7 @@ end
 \subsubsection*{1. Gráfica Polar}
 Representación en coordenadas polares de la función $\rho = \sin(2\theta)\cos(2\theta)$ para $\theta \in [0, 2\pi]$.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.65\textwidth]{Lab1-Parte2-Punto1.png.jpg}
     \caption{Gráfica polar de $\rho = \sin(2\theta)\cos(2\theta)$.}
@@ -468,7 +468,7 @@ Representación en coordenadas polares de la función $\rho = \sin(2\theta)\cos(
 \subsubsection*{2. Solución de Ecuación Diferencial}
 Gráfica de la respuesta temporal de la señal $x(t) = 10e^{-t} - 5e^{-0.5t}$ en el intervalo $t \in [0, 5]\text{ s}$.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Lab1-Parte2-Punto2.png.jpg}
     \caption{Respuesta temporal $x(t) = 10e^{-t} - 5e^{-0.5t}$.}
@@ -477,7 +477,7 @@ Gráfica de la respuesta temporal de la señal $x(t) = 10e^{-t} - 5e^{-0.5t}$ en
 \subsubsection*{3. Señal Sinusoidal Amortiguada}
 Evaluación de la señal $x(t) = 20\sin(2\pi \cdot 1000t - \pi/3)e^{-at}$ en $t \in [-2, 2]\text{ ms}$ para variaciones del parámetro de amortiguamiento $a \in \{500, 750, 1000\}$.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{Lab1-Parte2-Punto3.png.jpg}
     \caption{Señal sinusoidal amortiguada para diferentes valores de $a$.}
@@ -492,7 +492,7 @@ Evaluación de la señal $x(t) = 20\sin(2\pi \cdot 1000t - \pi/3)e^{-at}$ en $t 
 \subsubsection*{4. Secuencia Discreta $w[n]$}
 Evaluación y graficación discreta mediante impulsos de la secuencia $w[n] = \cos(2\pi F n)$ con $F = 0.1$ acotada en el intervalo de la condición dada.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Lab1-Parte2-Punto4.png.jpg}
     \caption{Secuencia discreta $w[n]$ para $F = 0.1$.}
@@ -505,7 +505,7 @@ Generación de 5 periodos completos para dos ondas periódicas:
     \item Onda diente de sierra de amplitud $6\text{ V}$ y frecuencia fundamental $f = 3\text{ Hz}$.
 \end{enumerate}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{Lab1-Parte2-Punto5.png.jpg}
     \caption{Formas de onda periódicas: Cuadrada ($20\text{ Hz}$) y Diente de Sierra ($3\text{ Hz}$).}

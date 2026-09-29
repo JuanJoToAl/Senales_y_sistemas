@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790648336.5697 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790648337.9704 0
+["pdflatex"] 1790649339.60031 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" "main.pdf" "main" 1790649342.57374 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1789762223 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1790019894 14064 af7f72e55c90075ba4ea83771791210f ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1788737851 13333486 ef2551da8984eb29d9263700172ee6fe ""
@@ -151,6 +151,7 @@
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1761900684 5048 0270515b828149155424600fd2d58ac5 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo" 1761900684 8449 8dc66c6c313c8eb2d774af83bca435dd ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1773583286 1083 f69f5eb2d8e249286c59dd1340122e59 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1773583286 41904 7711079366884e0d15963c9d40019853 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -188,9 +189,9 @@
   "Punto8Fig3.jpg" 1790112300 913942 6e0d7f052fa6982ae76eb10e0c7b9917 ""
   "Punto8Fig4.jpg" 1790112305 1020214 64d3072434ae5dd89c55d529c4c2c0ab ""
   "Punto8Fig5.jpg" 1790112309 857355 1dd5370161cc926fe6e431f8c746f883 ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790648314 20682 2049f1fd1f64f494efae8ba0e8d53e8d ""
-  "main.aux" 1790648337 2218 a9a739b586a37eb862889e3c2548d003 "pdflatex"
-  "main.tex" 1790648314 20682 2049f1fd1f64f494efae8ba0e8d53e8d ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/Señales y sistemas/Taller 2/main.tex" 1790649338 20678 3afb7bcbcb4f143deaeec9f29d1b1444 ""
+  "main.aux" 1790649342 2218 0f23912db41cdc34f1a42ea407baf001 "pdflatex"
+  "main.tex" 1790649338 20678 3afb7bcbcb4f143deaeec9f29d1b1444 ""
   (generated)
   "main.aux"
   "main.log"
