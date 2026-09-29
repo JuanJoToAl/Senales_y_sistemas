@@ -26,7 +26,7 @@
     {\large \textbf{Integrantes:}}\\[0.5cm]
     {\large Juan José Tobar Álvarez - jutobara@unal.edu.co}\\[0.2cm]
     {\large Cristian Eduardo Robayo Martinez - crobayom@unal.edu.co}\\[0.2cm]
-    {\large Nombre del Integrante 3 - Código}\\[3cm]
+    {\large Wilson Andres Perez Perez - wperezp@unal.edu.co}\\[0.2cm]
     
     \vfill
     {\large \today}\\[1cm]
@@ -323,6 +323,12 @@ Intervalo de traslape: $t \in [1, 2]$.
     \item Para $0 \le t < 1$: $x(t) = -1$
     \item Para $t \ge 1$: $x(t) = 0$
 \end{itemize}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{punto9_a.jpeg}
+    \caption{Señal $x(t)y(-1-t)$}
+\end{figure}
+
 
 \subsubsection*{b) $x(t) = -\mu(t+3) + 2\mu(t+1) - 2\mu(t-1) + \mu(t-3)$}
 \begin{itemize}
@@ -333,6 +339,12 @@ Intervalo de traslape: $t \in [1, 2]$.
     \item Para $t \ge 3$: $x(t) = 0$
 \end{itemize}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{punto9_b.jpeg}
+    \caption{Señal $x(t)y(-1-t)$}
+\end{figure}
+
 \subsection*{10. Operaciones con Señales Discretas}
 Señales base:
 \[ x[n] = \{3_{n=-3}, 2_{n=-2}, 1_{n=-1}, 0_{n=0}, 1_{n=1}, 2_{n=2}, 3_{n=3}\} \]
@@ -342,9 +354,21 @@ Señales base:
 Sumando punto a punto:
 \[ z_1[n] = \{-1_{n=-6}, -1_{n=-5}, -1_{n=-4}, -1_{n=-3}, 0_{n=-2}, 4_{n=-1}, 3_{n=0}, 2_{n=1}, 1_{n=2}, 1_{n=3}, 2_{n=4}, 3_{n=5}\} \]
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{punto10_a.jpeg}
+    \caption{Señal $x(t)y(-1-t)$}
+\end{figure}
+
 \subsubsection*{b) $z_2[n] = x[n+2] \cdot y[6-n]$}
 Como los intervalos donde las señales no son nulas no se traslapan tras la inversión y desplazamiento, el producto es idénticamente nulo:
 \[ z_2[n] = 0, \quad \forall n \]
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{punto10_b.jpeg}
+    \caption{Señal $x(t)y(-1-t)$}
+\end{figure}
 
 \subsection*{11. Periodicidad de Señales}
 
